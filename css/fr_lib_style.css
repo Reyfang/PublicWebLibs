@@ -1,1 +1,9 @@
 @charset "utf-8";
+
+.aftTriangle:after{content: "";display: block;position: absolute;border-width: 2px 2px 0 0;border-style: solid;border-color: red;left: 50%;top:30%;width: 16px;height: 16px;
+    -webkit-transform: rotate(45deg);
+    -moz-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    -o-transform: rotate(45deg);
+    transform: rotate(45deg);}
+    .aftArrow:after{content: "";display: block;position: absolute;border-width: 15px 10px 0 10px;border-style: solid;border-color: red transparent transparent transparent;left: 40%;top:30%;}
