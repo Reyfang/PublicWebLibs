@@ -6,4 +6,4 @@
     -ms-transform: rotate(45deg);
     -o-transform: rotate(45deg);
     transform: rotate(45deg);}
-    .aftArrow:after{content: "";display: block;position: absolute;border-width: 15px 10px 0 10px;border-style: solid;border-color: red transparent transparent transparent;left: 40%;top:30%;}
+.aftArrow:after{content: "";display: block;position: absolute;border-width: 15px 10px 0 10px;border-style: solid;border-color: red transparent transparent transparent;left: 40%;top:30%;}
