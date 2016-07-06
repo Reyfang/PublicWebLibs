@@ -1,0 +1,263 @@
+@charset "utf-8";
+body {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    text-align: center;
+    background: #000000;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -moz-box-align: center;
+    align-items: center;
+    align-content: center;
+    height: 100vh;
+    overflow: hidden;
+}
+
+.font-style-warp span {
+    position: relative;
+    display: inline-block;
+    overflow: auto;
+    margin: 0 20px;
+    -webkit-perspective: 500px;
+    perspective: 500px;
+    animation: 0.88889s ease-out both;
+}
+
+.font-style-warp span:after{
+    content: attr(data-val);
+    display: block;
+}
+
+.font-style-warp span:nth-child(1) {
+    /*-webkit-animation:sapn1 3s ;
+    -o-animation:sapn1 3s;*/
+    animation-delay: 1s;
+    animation-name: span1;
+    font-size: 50pt
+}
+.font-style-warp span:nth-child(1):after {
+    text-shadow: 1px 0 3px aqua,
+    1px 0 3px aqua,
+    1px 0 3px aqua,
+    1px 0 3px aqua,
+    0 1px 5px aqua,
+    0 1px 5px aqua,
+    0 1px 5px aqua,
+    0 1px 5px aqua,
+    0 -1px 5px aqua,
+    0 -1px 5px aqua,
+    0 -1px 5px aqua,
+    0 -1px 5px aqua,
+    -1px 0 5px aqua,
+    -1px 0 5px aqua,
+    -1px 0 5px aqua,
+    -1px 0 5px aqua;
+}
+
+
+.font-style-warp span:nth-child(2) {
+    animation-delay: 2s;
+    animation-name: span2;
+    font-size: 100pt
+}
+
+
+.font-style-warp span:nth-child(2):after {
+    text-shadow: 1px 0 3px red,
+    1px 0 3px red,
+    1px 0 3px red,
+    1px 0 3px red,
+    0 1px 5px red,
+    0 1px 5px red,
+    0 1px 5px red,
+    0 1px 5px red,
+    0 -1px 5px red,
+    0 -1px 5px red,
+    0 -1px 5px red,
+    0 -1px 5px red,
+    -1px 0 5px red,
+    -1px 0 5px red,
+    -1px 0 5px red,
+    -1px 0 5px red;
+}
+
+.font-style-warp span:nth-child(3) {
+    animation-delay: 3s;
+    animation-name: span3;
+    font-size: 150pt
+}
+
+.font-style-warp span:nth-child(3):after {
+    text-shadow: 1px 0 3px yellow,
+    1px 0 3px yellow,
+    1px 0 3px yellow,
+    1px 0 3px yellow,
+    0 1px 5px yellow,
+    0 1px 5px yellow,
+    0 1px 5px yellow,
+    0 1px 5px yellow,
+    0 -1px 5px yellow,
+    0 -1px 5px yellow,
+    0 -1px 5px yellow,
+    0 -1px 5px yellow,
+    -1px 0 5px yellow,
+    -1px 0 5px yellow,
+    -1px 0 5px yellow,
+    -1px 0 5px yellow;
+}
+
+.font-style-warp span:nth-child(4) {
+    animation-delay: 4s;
+    animation-name: span4;
+    font-size: 200pt
+}
+
+.font-style-warp span:nth-child(4):after {
+    text-shadow: 1px 0 3px blue,
+    1px 0 3px blue,
+    1px 0 3px blue,
+    1px 0 3px blue,
+    0 1px 5px blue,
+    0 1px 5px blue,
+    0 1px 5px blue,
+    0 1px 5px blue,
+    0 -1px 5px blue,
+    0 -1px 5px blue,
+    0 -1px 5px blue,
+    0 -1px 5px blue,
+    -1px 0 5px blue,
+    -1px 0 5px blue,
+    -1px 0 5px blue,
+    -1px 0 5px blue;
+}
+
+.font-style-warp span:nth-child(5) {
+    animation-delay: 5s;
+    animation-name: span5;
+    font-size: 250pt
+}
+
+.font-style-warp span:nth-child(5):after {
+    text-shadow: 1px 0 3px darkorange,
+    1px 0 3px darkorange,
+    1px 0 3px darkorange,
+    1px 0 3px darkorange,
+    0 1px 5px darkorange,
+    0 1px 5px darkorange,
+    0 1px 5px darkorange,
+    0 1px 5px darkorange,
+    0 -1px 5px darkorange,
+    0 -1px 5px darkorange,
+    0 -1px 5px darkorange,
+    0 -1px 5px darkorange,
+    -1px 0 5px darkorange,
+    -1px 0 5px darkorange,
+    -1px 0 5px darkorange,
+    -1px 0 5px darkorange;
+}
+
+.font-style-warp span:nth-child(6) {
+    animation-delay: 6s;
+    animation-name: span6;
+    font-size: 300pt
+}
+
+.font-style-warp span:nth-child(6):after {
+    text-shadow: 1px 0 3px chartreuse,
+    1px 0 3px chartreuse,
+    1px 0 3px chartreuse,
+    1px 0 3px chartreuse,
+    0 1px 5px chartreuse,
+    0 1px 5px chartreuse,
+    0 1px 5px chartreuse,
+    0 1px 5px chartreuse,
+    0 -1px 5px chartreuse,
+    0 -1px 5px chartreuse,
+    0 -1px 5px chartreuse,
+    0 -1px 5px chartreuse,
+    -1px 0 5px chartreuse,
+    -1px 0 5px chartreuse,
+    -1px 0 5px chartreuse,
+    -1px 0 5px chartreuse;
+}
+
+
+.font-style-warp span:nth-child(7) {
+    font-size: 350pt;
+    animation-delay: 7s;
+    animation-name: span7;
+}
+
+
+.font-style-warp span:nth-child(7):after {
+    text-shadow: 1px 0 3px blueviolet,
+    1px 0 3px blueviolet,
+    1px 0 3px blueviolet,
+    1px 0 3px blueviolet,
+    0 1px 5px blueviolet,
+    0 1px 5px blueviolet,
+    0 1px 5px blueviolet,
+    0 1px 5px blueviolet,
+    0 -1px 5px blueviolet,
+    0 -1px 5px blueviolet,
+    0 -1px 5px blueviolet,
+    0 -1px 5px blueviolet,
+    -1px 0 5px blueviolet,
+    -1px 0 5px blueviolet,
+    -1px 0 5px blueviolet,
+    -1px 0 5px blueviolet;
+}
+
+@keyframes span1 {
+    from{
+        /*-webkit-transform: rotate(50deg) translateY(120vh);*/
+        transform: rotate(50deg) translateY(50vh);
+    }
+}
+
+@keyframes span2 {
+    from{
+        /*-webkit-transform: rotate(50deg) translateY(120vh);*/
+        transform: rotate(100deg) translateY(100vh);
+    }
+}
+
+@keyframes span3 {
+    from{
+        /*-webkit-transform: rotate(50deg) translateY(120vh);*/
+        transform: rotate(150deg) translateY(150vh);
+    }
+}
+
+@keyframes span4 {
+    from{
+        /*-webkit-transform: rotate(50deg) translateY(120vh);*/
+        transform: rotate(200deg) translateY(200vh);
+    }
+}
+
+@keyframes span5 {
+    from{
+        /*-webkit-transform: rotate(50deg) translateY(120vh);*/
+        transform: rotate(250deg) translateY(250vh);
+    }
+}
+
+@keyframes span6 {
+     from{
+         /*-webkit-transform: rotate(50deg) translateY(120vh);*/
+         transform: rotate(300deg) translateY(300vh);
+     }
+ }
+
+@keyframes span7 {
+    from{
+        /*-webkit-transform: rotate(50deg) translateY(120vh);*/
+        transform: rotate(350deg) translateY(350vh);
+    }
+}
